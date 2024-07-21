@@ -14,8 +14,8 @@ public class SpringBootPracticeApplication {
 //		DongCoTrungQuoc dongCoTrungQuoc = context.getBean(DongCoTrungQuoc.class);
 //		DongCoMy dongCoMy = context.getBean(DongCoMy.class);
 
-		XeMay xeMay = context.getBean(XeMay.class);
-		xeMay.DiXe();
+//		XeMay xeMay = context.getBean(XeMay.class);
+//		xeMay.DiXe();
 
 
 		// Tiêm phụ thuộc vào constructor
@@ -29,6 +29,10 @@ public class SpringBootPracticeApplication {
 		// Tiêm phụ thuộc bằng Interface
 //		xeMay.set(dongCoMy);
 //		xeMay.DiXe();
+
+		Boy boy = context.getBean(Boy.class);
+		System.out.println("Boy: " +boy);
+		boy.userObjectMapper();
 	}
 
 }
