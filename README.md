@@ -28,3 +28,5 @@ Bean Scope
 + Prototype: Mỗi khi có yêu cầu thì container sẽ tạo ra một instance mới và trả về.
 + .....
 VD: Cách dùng @Scope("singleton")
+
+![Logo](C:\Users\nguye\OneDrive\Hình ảnh\Ảnh chụp màn hình\Screenshot 2024-07-21 235807.png)
